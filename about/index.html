@@ -107,7 +107,9 @@
     .photo-strip img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; }
     @media (max-width: 600px) { .photo-strip { grid-template-columns: 1fr; } .about-imgs img, .about-imgs img:first-child { height: 200px; } }
 
-    .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; margin-top: 16px; }
+    .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 16px; }
+    @media (max-width: 860px) { .values-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 540px) { .values-grid { grid-template-columns: 1fr; } }
     .value-card { background: var(--gray); border-radius: 12px; padding: 28px 24px; border-top: 4px solid var(--yellow); }
     .value-card h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
     .value-card p { font-size: 0.88rem; color: var(--muted); line-height: 1.65; }
