@@ -186,6 +186,14 @@
     .why-item p { font-size: 0.88rem; color: var(--muted); }
     .why-img { width: 100%; border-radius: 12px; object-fit: cover; height: 320px; margin-top: 48px; }
 
+    /* SERVICE AREAS / FAQ */
+    .areas-list { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 48px; }
+    .areas-list span { background: var(--gray); border: 1px solid #e5e7eb; border-radius: 999px; padding: 8px 18px; font-size: 0.88rem; font-weight: 600; color: var(--navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; padding: 20px 0; }
+    .faq-item:first-child { border-top: 1px solid #e5e7eb; }
+    .faq-item h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .faq-item p { font-size: 0.92rem; color: var(--muted); line-height: 1.7; }
+
     /* TESTIMONIALS */
     .testimonials-bg { background: var(--navy); }
     .testimonials-bg .section-title { color: var(--white); }
@@ -426,6 +434,72 @@
     <img src="images/pathway-lights.jpg" alt="Professional outdoor pathway lighting Grand Rapids MI" class="why-img" />
   </div>
 </section>
+
+<!-- SERVICE AREAS / FAQ -->
+<section id="service-areas">
+  <div class="section-inner">
+    <div class="section-label">Where We Work</div>
+    <div class="section-title">Proudly Serving Grand Rapids &amp; Surrounding Areas</div>
+    <p class="section-sub">In addition to Grand Rapids, we regularly serve homeowners and businesses throughout Kent County.</p>
+    <div class="areas-list">
+      <span>Kentwood</span>
+      <span>Wyoming</span>
+      <span>Walker</span>
+      <span>Grandville</span>
+      <span>East Grand Rapids</span>
+      <span>Forest Hills</span>
+      <span>Cascade</span>
+      <span>Comstock Park</span>
+      <span>Rockford</span>
+      <span>Ada</span>
+    </div>
+    <div class="faq-item">
+      <h3>Do you offer same-day or emergency electrical service in Grand Rapids?</h3>
+      <p>Yes. We offer same-day appointments for most electrical repairs and emergency service for urgent issues like power outages, sparking outlets, or tripped breakers that won't reset.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How much does an electrician in Grand Rapids charge?</h3>
+      <p>Pricing depends on the scope of work, but we provide upfront, transparent quotes before any work begins — often right over the phone. Call 616-228-9198 for a free estimate.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Are you licensed and insured to work in Michigan?</h3>
+      <p>Yes, we are fully licensed and insured electricians serving Grand Rapids and the surrounding Kent County area, with 20+ years of residential and commercial experience.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do you serve areas outside Grand Rapids?</h3>
+      <p>Yes — in addition to Grand Rapids, we regularly serve Kentwood, Wyoming, Walker, Grandville, East Grand Rapids, Forest Hills, Cascade, Comstock Park, Rockford, and Ada.</p>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer same-day or emergency electrical service in Grand Rapids?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. We offer same-day appointments for most electrical repairs and emergency service for urgent issues like power outages, sparking outlets, or tripped breakers that won't reset." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an electrician in Grand Rapids charge?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on the scope of work, but we provide upfront, transparent quotes before any work begins — often right over the phone. Call 616-228-9198 for a free estimate." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured to work in Michigan?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, we are fully licensed and insured electricians serving Grand Rapids and the surrounding Kent County area, with 20+ years of residential and commercial experience." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you serve areas outside Grand Rapids?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — in addition to Grand Rapids, we regularly serve Kentwood, Wyoming, Walker, Grandville, East Grand Rapids, Forest Hills, Cascade, Comstock Park, Rockford, and Ada." }
+    }
+  ]
+}
+</script>
 
 <!-- TESTIMONIALS -->
 <section class="testimonials-bg" id="reviews">
